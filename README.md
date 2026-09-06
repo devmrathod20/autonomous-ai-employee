@@ -41,6 +41,20 @@ Each agent is its own **n8n sub-workflow**, called from the Orchestrator via Exe
 
 Models are deliberately split across three separate Groq model buckets (`gpt-oss-20b`, `gpt-oss-120b`, `qwen3.8-27b`) so agents running in the same loop don't compete for the same per-minute token quota.
 
+### Workflow Images
+## Orchestrator Workflow
+![Orchestrator workflow canvas](Workflow/Orchestrator.png)
+## Research Agent
+![Research Agent workflow canvas](Workflow/Research-Agent.png)
+## Verification Agent
+![Verification Agent workflow canvas](Workflow/Verification-Agent.png)
+## Lead Agent
+![Lead Agent workflow canvas](Workflow/Lead-Agent.png)
+## CRM Agent
+![CRM Agent workflow canvas](Workflow/CRM-Agenet.png)
+## Email Drafter & Sender
+![Email Draafter & Sender workflow canvas](Workflow/Email-Drafter-&-Sender.png)
+
 ## External services used (all free-tier)
 
 | Service | Used for | Notes |
