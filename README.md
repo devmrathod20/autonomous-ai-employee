@@ -51,7 +51,7 @@ Models are deliberately split across three separate Groq model buckets (`gpt-oss
 ## Lead Agent
 ![Lead Agent workflow canvas](Workflow/Lead-Agent.png)
 ## CRM Agent
-![CRM Agent workflow canvas](Workflow/CRM-Agenet.png)
+![CRM Agent workflow canvas](Workflow/CRM-Agent.png)
 ## Email Drafter & Sender
 ![Email Draafter & Sender workflow canvas](Workflow/Email-Drafter-&-Sender.png)
 
